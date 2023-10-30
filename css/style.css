@@ -35,7 +35,7 @@ input, textarea, select {margin:0; padding:0px;}
 
 html { -webkit-text-size-adjust: none;}
 .video embed,.video object,.video iframe { width: 100%;  height: auto;}
-img{max-width:100%;	height: auto;width: auto\9; /* ie8 */}
+img{max-width:200%;	height: auto;width: auto\9; /* ie8 */}
 
 a{
     color: #ff5f9f;
@@ -470,25 +470,22 @@ textarea {display:block;width:100%;height:200px;background-color:#F3F3F3; color:
 .owl-carousel .item{position: relative;}
 .carousel-caption {position: absolute;top: 50%;transform: translateY(-50%);bottom: auto;padding: 0;text-align: center;width: 100%;left: auto;right: auto;text-shadow: none;}
 .carousel-caption-title {margin: 0;padding: 0;}
-.carousel-caption-title a {
-    font-size: 18px;
-    font-size: 1.2em;
+.carousel-caption-title {
+    font-size: 15px;
+	font-weight: bolder;
     font-family: 'Cabin', Helvetica, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 2px;
     color: #373735;
 }
-.carousel-caption-title {white-space: nowrap;overflow: hidden;text-overflow: ellipsis;}
-.carousel-caption-title a:hover {color: #628d7c;}
-.carousel-caption-category {margin: 0;padding: 0;}
-.carousel-caption-category a {
+.carousel-caption-text {margin: 0;padding: 0;}
+.carousel-caption-text {
     color: #aaaaaa;
     font-size: 14px;
     font-size: 0.875em;
     letter-spacing: .5px;
     text-transform: none;
+	color: #91987D;
 }
-.carousel-caption-category a:hover {color: #628d7c;}
 .carousel-caption-inner {background: #fff;padding: 30px 40px;max-width: 80%;margin: 0 auto;display: inline-block;}
 
 .copyright {
