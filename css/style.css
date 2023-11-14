@@ -105,10 +105,8 @@ header #logo{}
 #container .wrap-container{background: #ffffff;}
 
 /* ---content-box--- */
-.content-box {}
-.content-box {}
-.content-box .wrap-box {padding:80px 10px; position: relative;}
-.content-box .header {text-align: center; margin: 20px 0 70px;}
+.content-box .wrap-box {padding:40px 10px; position: relative;}
+.content-box .header {text-align: center; margin: 20px 0 40px;}
 .content-box .header h2{font-size: 37px;font-weight: bold;line-height: 1.2;color: #111;}
 .content-box .header .wrapper{padding: 5px; display: inline-block;}
 .content-box .header .intro {color: #ff5f9f;font-size: 15px;font-style: italic;font-family: "Merriweather",serif; font-weight: bold;}
@@ -121,14 +119,8 @@ header #logo{}
 .content-box.box-1 span{color: #ff5f9f;}
 .content-box.box-1 .lead {font-size: 21px;color: #555;}
 
-.content-box.box-2 .wrap-box {padding:80px 0;}
-.content-box.box-2 .post{text-align: center;margin: 20px inherit; }
-.content-box.box-2 img{}
 
-.content-box.box-3 {}
-.content-box.box-3 .project-category {font-size: 16px !important;}
-.content-box.box-3 .project-name {font-size: 13px !important;}
-.content-box.box-3 .project-name h4{font-size: 40px;margin-bottom: 5px;line-height: 1.2;}
+
 
 .content-box.box-4 {text-align: center;}
 .content-box.box-4 .item{}
@@ -138,24 +130,15 @@ header #logo{}
 .content-box.box-4 .item span{font-weight: bold;color: #ff5f9f;margin-top: 10px;display: block;}
 .content-box.box-4 .project-social i.fa{font-size: 91px;}
 
-.content-box.box-5 {text-align: center;}
-.content-box.box-5 .header h2{color: #fff;}
-.content-box.box-5 .item{}
-.content-box.box-5 .item .item-content{padding: 20px 10px;}
-.content-box.box-5 h3 a{color: #fff;font-size: 18px;}
-.content-box.box-5 h3 a:hover{color: #ff5f9f;}
-.content-box.box-5 i.fa{line-height: 1.6;margin: 0 3px;}
-.content-box.box-5 span{font-size: 15px;display: block;margin-top: 10px;color: #ccc;}
-.content-box.box-5 .testimonials-item{max-width: 600px;margin: auto;border: 1px solid #ff5f9f;padding: 30px;} 
-.content-box.box-5 .testimonials-item img{max-width: 130px;margin-bottom: 15px;border-radius: 50%;}
-.content-box.box-5 .testimonials-item h5{margin-top: 30px;}
-.content-box.box-5 .testimonials-item p{color: #ccc;}
+
 
 .box_bot {text-align: center;}
 .box_bot .wrap-box{padding: 20px 10px;}
 .box_bot h3{color: #000;}
 .box_bot p{font-size: 15px;}
 .box_bot i.fa{font-size: 28px; height: 70px; width: 70px; background: #ff5f9f; color: #fff;border-radius: 50%;margin-bottom: 30px;padding-top: 22px;}
+
+
 
 /* ---MainContent-Article--- */
 #main-content{margin: 40px 0;}
